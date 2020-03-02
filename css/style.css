@@ -1,3 +1,23 @@
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #418bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+  color: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -141,26 +161,6 @@ a {
 
 .py-5 {
   padding: 5rem 0;
-}
-
-.btn-secondary, .btn-primary {
-  display: inline-block;
-  border-radius: 5px;
-  padding: 8px 20px;
-  margin: 3px;
-}
-.btn-secondary:hover, .btn-primary:hover {
-  transform: scale(0.98);
-}
-
-.btn-primary {
-  background-color: #418bff;
-  color: #fff;
-}
-
-.btn-secondary {
-  background-color: #ff8700;
-  color: #fff;
 }
 
 @media (max-width: 700px) {
